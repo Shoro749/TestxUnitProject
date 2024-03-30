@@ -19,9 +19,12 @@ namespace TestxUnitProject
             throw new NotImplementedException();
         }
 
-        public static bool IsPasswordValid(string name)
+        public static bool IsPasswordValid(string password)
         {
-            throw new NotImplementedException();
+            //if (string.IsNullOrWhiteSpace(password)) throw new ArgumentException(nameof(password));
+            //if (password.Length <= 8) { return false; }
+            //return true;
+            return false;
         }
     }
 }
